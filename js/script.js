@@ -1,10 +1,11 @@
 "use strict";
 
 
+
 // STEP 1 
 
 let someMonth;
-function theMonth(){};
+function theMonth() { };
 let currentMonth;
 let summerMonth;
 let myLibraryFunction;
@@ -36,13 +37,13 @@ let blnResponse;
 
 // STEP 5
 
-let fName ="Diego";
+let fName = "Diego";
 let zipCode = 85749;
 const response = true;
 
 // STEP 6
 
-let fruit = "apple" , ammount = 10
+let fruit = "apple", ammount = 10
 
 console.log(`I ate ${ammount} ${fruit}\'s`);
 
@@ -81,16 +82,75 @@ console.info(typeof blah);
 
 // STEP 11
 
-alert("Hello " + fName +" , welcome to the JavaScript class!");
+alert("Hello " + "Diego Robles" + ", welcome to the JavaScript class!");
 
 // STEP 12
+
+let strFullName = "Diego Robles";
+
+alert(`Hello ${strFullName}, welcome to the JavaScript class!`);
+
 // STEP 13
+
+let course = "JavaScript";
+
+alert(`Hello ${strFullName}, welcome to the ${course} class!`);
+
 // STEP 14
+
+alert(`Hello ${strFullName}. \nWelcome to the ${course} class!`);
+
 // STEP 15
+
+let nameEntry = prompt("What is your name?");
+
+alert(`Hello ${nameEntry}, welcome to the JavaScript class!`);
+
 // STEP 16
+
+let nameCourse = prompt("Which course are you taking?");
+
+alert(`Hello ${nameEntry}, welcome to the ${nameCourse} class!`);
 // STEP 17
+
+let x = 10;
+let y = 20;
+
+console.log(x+y);
+
 // STEP 18
+
+
+let z = 20;
+z += 20;
+
+console.log(z);
+
+
 // STEP 19
+
+let w = 20;
+w *= 5;
+
+console.log(w);
+
 // STEP 20
+
+let v = 20 % 3;
+v /= 1;
+
+console.log(v);
+
 // STEP 21
+
+let a = 3;
+let b = 5;
+
+console.log(a == 3 && b == "5");
+
 // STEP 22
+
+let c = 12;
+let d = 12;
+
+console.log(c != 12 || d === "12");
